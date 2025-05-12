@@ -15,21 +15,13 @@ SECRET_KEY = 'django-insecure-mwd82b%3ed4%p(c(2-#y8x1z&@ax40nw$@o0v#yx$mk%k)v-i7
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-# ALLOWED_HOSTS = [
-#     'findone-g7lz.onrender.com', 
-#     'localhost', 
-#     '127.0.0.1',
-#     '.onrender.com'  # This will allow all subdomains of onrender.com
-# ]
+CSRF_TRUSTED_ORIGINS = [
+    'https://findone-g7lz.onrender.com',
+    'http://findone-g7lz.onrender.com',
+]
 
-# CSRF_TRUSTED_ORIGINS = [
-#     'https://findone-g7lz.onrender.com',
-#     'http://findone-g7lz.onrender.com',  # Add HTTP if needed
-# ]
+ALLOWED_HOSTS = ['.onrender.com', 'localhost', '127.0.0.1']
 
-
-
-ALLOWED_HOSTS = [*]
 
 
 
