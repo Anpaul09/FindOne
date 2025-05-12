@@ -1,0 +1,192 @@
+/* Overall page styling */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    font-size: 32px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Header and navigation styling */
+header {
+    background-color: #5ab9ea;
+    color: white;
+    padding: 15px 0;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    background-color: #4a9fd7;
+    border-radius: 5px;
+}
+
+header nav span {
+    font-size: 16px;
+    margin-right: 15px;
+}
+
+/* Main content section */
+section {
+    padding: 50px 20px;
+    max-width: 1100px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 700;
+    background-color: #f0a500;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+p {
+    font-size: 20px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Link styling */
+a {
+    text-decoration: none;
+    color: #5ab9ea;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: #f0a500;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+a:hover {
+    background-color: #ff7f00;
+    color: white;
+}
+
+/* Colorful lines for added visibility */
+.colored-line {
+    height: 5px;
+    margin: 30px 0;
+    border: none;
+}
+
+.line-blue {
+    background-color: #5ab9ea;
+}
+
+.line-green {
+    background-color: #7cdb7f;
+}
+
+.line-purple {
+    background-color: #9b5de5;
+}
+
+/* Footer section */
+footer {
+    background-color: #5ab9ea;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 14px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Login form styling */
+.login-container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    transition: all 0.3s ease;
+}
+
+input[type="text"], input[type="password"], input[type="email"] {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus {
+    border-color: #5ab9ea;
+    box-shadow: 0 0 8px rgba(90, 185, 234, 0.5);
+}
+
+button {
+    background-color: #5ab9ea;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #4a9fd7;
+    transform: translateY(-2px);
+}
+
+/* Body for quiz page */
+body {
+    background-image: url("{% static 'images/background.jpg' %}");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
