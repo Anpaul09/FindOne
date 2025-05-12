@@ -30,6 +30,7 @@ ALLOWED_HOSTS = ['findone-g7lz.onrender.com', 'localhost', '127.0.0.1']
 
 
 
+
 # Application definition
 
 INSTALLED_APPS = [
